@@ -35,7 +35,7 @@ export default function AboutPage() {
                 Download Introduction to Foundry and AIP Certificate
             </a>
             <a
-                href="/website-files/CompTIA Security+ ce certificate.pdf"
+                href="/website-files/CompTIA_Security_Plus_certificate.pdf"
                 target="_blank"
                 className="border px-4 py-2 rounded"
                 >
