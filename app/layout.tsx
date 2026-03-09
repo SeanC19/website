@@ -31,6 +31,11 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       ><Navigationbar />
         {children}
+
+        {/* Footer */}
+        <footer className="border-t mt-10 py-6 text-center text-sm text-gray-600">
+          © {new Date().getFullYear()} Sean Conley • Built with Next.js & Tailwind
+        </footer>
       </body>
     </html>
   );
