@@ -6,7 +6,7 @@ export default function HomePage() {
       {/* Hero Section */}
       <section className="text-center mb-8">
         <h1 className="text-5xl font-bold mb-4">Sean Conley</h1>
-        <p className="text-xl mb-6">
+        <p className="text-xl mb-1">
           CS @ George Mason University | Software Developer | CompTIA Security+ | Palantir Foundry & AIP Builder
         </p>
         {/* <div className="flex justify-center gap-4"> */}
