@@ -15,7 +15,7 @@ export default function HomePage() {
           <a href="/contact" className="bg-gray-200 text-gray-800 px-6 py-3 rounded shadow hover:bg-gray-300 transition">
             Contact Me
           </a>
-          <a href="/about" className="bg-gray-200 text-gray-800 px-6 py-3 rounded shadow hover:bg-gray-300 transition">
+          <a href="/about" className="bg-blue-600 text-white  px-6 py-3 rounded shadow hover:bg-blue-700 transition">
             About Me
           </a>
         </div>
