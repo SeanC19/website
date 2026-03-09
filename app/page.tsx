@@ -78,9 +78,9 @@ export default function HomePage() {
         <p>Email: sconley5@gmu.edu</p>
         <p>Location: Fairfax, VA, USA</p>
         <div className="flex justify-center gap-4 mt-4">
+          <a href="https://www.linkedin.com/in/sean-conley-235558250/" target="_blank" className="text-blue-600 underline">LinkedIn</a>
           <a href="https://github.com/SeanC19" target="_blank" className="text-blue-600 underline">GitHub</a>
           <a href="https://gitlab.orc.gmu.edu/sconley5" target="_blank" className="text-blue-600 underline">GitLab</a>
-          <a href="https://www.linkedin.com/in/sean-conley-235558250/" target="_blank" className="text-blue-600 underline">LinkedIn</a>
           <a href="https://leetcode.com/u/SliverSlick/" target="_blank" className="text-blue-600 underline">LeetCode</a>
         </div>
       </section>
