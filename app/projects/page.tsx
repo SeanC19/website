@@ -57,9 +57,15 @@ Built a full-featured task management system supporting foreground/background ex
         />
 
         <ProjectCard
-          title=""
-          description=""
-          skills=""
+          title="Campus Workshop Registration Management System"
+          description="Built a command line system using Java JDBC and Oracle to manage campus workshops and student registrations. The application initializes its database from an external SQL script, then provides a full menu‑driven interface for searching workshops, viewing tables, and managing registrations with real‑time validation and capacity checks."
+          features={`Oracle database connection and automated schema setup via SQL script execution
+- View and search workshops by ID, title, or category (supports partial matching)
+- Display registered students and total enrollment for any workshop
+- Add new registrations with date stamping, capacity enforcement, and duplicate prevention
+- Delete registrations with confirmation and success/failure feedback
+- Robust CLI with input validation and clean, readable output formatting`}
+          skills="Java, JDBC, Oracle SQL, Command-Line Interface, Database Management, Data Validation"
         />
 
         <ProjectCard
