@@ -23,7 +23,7 @@ export default function HomePage() {
       </section>
 
       <div className="p-10">
-        <div className="mt-4">
+        <div className="mt-1">
             <About
                 title="About Me" 
                 description="I am a junior at George Mason University pursuing a B.S. in Computer Science with interests in software engineering and cybersecurity. I hold the CompTIA Security+ certification, demonstrating a strong foundation in cybersecurity principles, risk management, and secure systems, and I am currently studying for the AWS Certified Cloud Practitioner certification exam.   Recently, I expanded my enterprise data and AI skill set through hands-on experience with Palantir Foundry. I completed the Foundry & AIP Builder Foundations curriculum, gaining practical experience in building data pipelines, developing operational workflows, and leveraging AI-driven tools to support decision-making in enterprise environments. Through this training, I strengthened my understanding of how scalable data platforms can be applied to real-world organizational challenges.      My background also includes projects in Python, C, SQL, and Java, along with significant leadership experience. I am an Eagle Scout and serve as President of my club hockey team, where I oversee team operations, coordinate logistics, and lead in a collaborative team environment. I'm seeking opportunities that will allow me to continue developing my technical skills, apply secure development practices, and contribute to impactful, team-driven projects."
