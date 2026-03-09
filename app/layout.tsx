@@ -27,15 +27,17 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      ><Navigationbar />
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gray-50 text-gray-900`}
+      >
+        <Navigationbar />
+
         {children}
 
         {/* Footer */}
-        <footer className="border-t bg-gray-50 mt-10 py-6 text-center text-sm text-gray-900">
+        <footer className="border-t mt-10 py-6 text-center text-sm text-gray-900">
           <p>© {new Date().getFullYear()} Sean Conley</p>
         </footer>
+
       </body>
     </html>
   );
