@@ -1,8 +1,8 @@
 interface ProjectCardProps {
   title: string;
   description: string;
-  features: string; // raw string with "- " bullets
-  skills: string;
+  features?: string;
+  skills?: string;
   link?: string;
   screenshot?: string;
 }
@@ -10,21 +10,29 @@ interface ProjectCardProps {
 export default function ProjectCard({
   title,
   description,
-  features,
-  skills,
+  features = "",
+  skills = "",
   link,
   screenshot,
 }: ProjectCardProps) {
-  // Split features into lines starting with '- '
-  const featuresList = features
-    .split("\n")
-    .filter(f => f.trim() !== "")
-    .map(f => f.replace(/^- /, "")); // remove leading dash and space
-
-  // Optional: split description into paragraphs by empty line
+  // Split description into paragraphs at empty lines
   const descriptionParagraphs = description
     .split("\n\n")
-    .filter(p => p.trim() !== "");
+    .map(p => p.trim())
+    .filter(p => p.length > 0);
+
+  // Split features string into bullet points
+  const featuresList = features
+    .split("\n")
+    .map(f => f.trim())
+    .filter(f => f.startsWith("-"))
+    .map(f => f.replace(/^- /, "")); // remove leading dash
+
+  // Split skills into tags
+  const skillsList = skills
+    .split(",")
+    .map(s => s.trim())
+    .filter(s => s.length > 0);
 
   return (
     <div className="border rounded-lg p-6 shadow hover:shadow-lg transition duration-200">
@@ -36,23 +44,42 @@ export default function ProjectCard({
 
       {/* Render description paragraphs */}
       {descriptionParagraphs.map((p, idx) => (
-        <p key={idx} className="mb-4">
-          {p}
-        </p>
+        <p key={idx} className="mb-4">{p}</p>
       ))}
 
-      <h3 className="font-semibold mb-1">Features:</h3>
-      <ul className="list-disc list-inside mb-4">
-        {featuresList.map((f, idx) => (
-          <li key={idx}>{f}</li>
-        ))}
-      </ul>
+      {/* Render features as bullet list */}
+      {featuresList.length > 0 && (
+        <>
+          <h3 className="font-semibold mb-1">Features:</h3>
+          <ul className="list-disc list-inside mb-4">
+            {featuresList.map((f, idx) => (
+              <li key={idx}>{f}</li>
+            ))}
+          </ul>
+        </>
+      )}
 
-      <h3 className="font-semibold mb-1">Skills:</h3>
-      <p className="mb-2">{skills}</p>
+      {/* Render skills as tags */}
+      {skillsList.length > 0 && (
+        <div className="flex flex-wrap gap-2 mb-2">
+          {skillsList.map((skill, idx) => (
+            <span
+              key={idx}
+              className="bg-gray-200 text-gray-800 text-sm px-2 py-1 rounded"
+            >
+              {skill}
+            </span>
+          ))}
+        </div>
+      )}
 
-      {link && (
-        <a href={link} target="_blank" className="text-blue-600 underline">
+      {/* Optional link */}
+      {link && link !== "N/A" && (
+        <a
+          href={link}
+          target="_blank"
+          className="text-blue-600 underline"
+        >
           View Project
         </a>
       )}
