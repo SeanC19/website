@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sean Conley Portfolio",
-  description: "Sean's personal portfolio website showcasing projects, skills, and experience in software development and cybersecurity.",
+  title: "Sean Conley | Portfolio",
+  description: "Portfolio website for Sean Conley - Junior Computer Science Student at George Mason University.",
 };
 
 export default function RootLayout({
