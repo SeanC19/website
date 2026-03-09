@@ -5,7 +5,7 @@ export default function HomePage() {
     <div className="p-10 max-w-7xl mx-auto">
       {/* Hero Section */}
       <section className="text-center">
-        <h1 className="text-5xl font-bold mb-4">Sean Conley</h1>
+        <h1 className="text-5xl font-bold mb-1">Sean Conley</h1>
         <p className="text-xl">
           CS @ George Mason University | Software Developer | CompTIA Security+ | Palantir Foundry & AIP Builder
         </p>
