@@ -28,6 +28,7 @@ Built as a team-based academic project with an emphasis on backend logic, system
 - Operational workflow creation with Actions to automate data-driven processes
 - End‑to‑end demonstration of Foundry's capabilities from raw data to actionable insights`}
           skills="Palantir Foundry (Ontology, Actions, Pipelines, Code Repos), Data modeling and entity‑relationship design, "
+          screenshot="/public/Palantir E2E Speedrun Pictures/Workshop.pdf"
         />
 
         <ProjectCard
