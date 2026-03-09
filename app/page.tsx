@@ -80,38 +80,38 @@ export default function HomePage() {
         <p>Email: sconley5@gmu.edu</p>
         <p>Location: Fairfax, VA, USA</p>
         <div className="flex justify-center gap-8 mt-4 text-5xl">
-            <a
-      href="hhttps://www.linkedin.com/in/sean-conley-235558250/"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="hover:text-blue-600 transition"
-    >
-      <FaLinkedin />
-    </a>
-        <a
-      href="https://github.com/SeanC19"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="hover:text-purple-600 transition"
-    >
-      <FaGithub />
-    </a>
           <a
-      href="https://gitlab.orc.gmu.edu/sconley5"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="hover:text-orange-600 transition"
-    >
-      <FaGitlab />
-    </a>
+            href="https://www.linkedin.com/in/sean-conley-235558250/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-blue-600 transition"
+            >
+            <FaLinkedin />
+          </a>
           <a
-      href="https://leetcode.com/u/SliverSlick/"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="hover:text-yellow-500 transition"
-    >
-      <SiLeetcode />
-    </a>
+            href="https://github.com/SeanC19"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-purple-600 transition"
+            >
+            <FaGithub />
+          </a>
+          <a
+            href="https://gitlab.orc.gmu.edu/sconley5"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-orange-600 transition"
+            >
+            <FaGitlab />
+          </a>
+          <a
+            href="https://leetcode.com/u/SliverSlick/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-yellow-500 transition"
+            >
+            <SiLeetcode />
+          </a>
         </div>
       </section>
     </div>
