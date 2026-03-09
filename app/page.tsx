@@ -38,7 +38,7 @@ export default function HomePage() {
     <a
       href="/website-files/Resume (Spring 2026) -Sean Conley .pdf"
       target="_blank"
-      className="bg-blue-450 text-white px-4 py-2 rounded hover:bg-blue-550 transition"
+      className="bg-blue-400 text-white px-4 py-2 rounded hover:bg-blue-500 transition"
     >
       Download My Latest Resume
     </a>
@@ -49,7 +49,7 @@ export default function HomePage() {
         <a
           href="/website-files/Foundry and AIP Builder Foundations Quiz.pdf"
           target="_blank"
-          className="bg-blue-450 text-white px-4 py-2 rounded hover:bg-blue-550 transition w-72 text-center"
+          className="bg-blue-400 text-white px-4 py-2 rounded hover:bg-blue-500 transition w-72 text-center"
         >
           Foundry & AIP Builder Foundations Certificate
         </a>
@@ -57,7 +57,7 @@ export default function HomePage() {
         <a
           href="/website-files/Introduction to Foundry and AIP.pdf"
           target="_blank"
-          className="bg-blue-450 text-white px-4 py-2 rounded hover:bg-blue-550 transition w-72 text-center"
+          className="bg-blue-400 text-white px-4 py-2 rounded hover:bg-blue-500 transition w-72 text-center"
         >
           Introduction to Foundry & AIP Certificate
         </a>
@@ -65,7 +65,7 @@ export default function HomePage() {
         <a
           href="/website-files/CompTIA_Security_Plus_certificate.pdf"
           target="_blank"
-          className="bg-blue-450 text-white px-4 py-2 rounded hover:bg-blue-550 transition w-72 text-center"
+          className="bg-blue-400 text-white px-4 py-2 rounded hover:bg-blue-500 transition w-72 text-center"
         >
           CompTIA Security+ Certificate
         </a>
