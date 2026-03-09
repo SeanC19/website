@@ -13,6 +13,13 @@ export default function AboutPage() {
                     screenshot="N/A"
                 />
             </div>
+            <a
+                href="/website-files/resume.pdf"
+                target="_blank"
+                className="border px-4 py-2 rounded"
+                >
+                Download Resume
+            </a>
         </div>
     );
 } 
