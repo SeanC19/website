@@ -21,6 +21,16 @@ Built as a team-based academic project with an emphasis on backend logic, system
         />
 
         <ProjectCard
+          title="Palantir Foundry End‑to‑End Data Workflow (Speed Run)"
+          description="Built a complete data pipeline and operational workflow inside Palantir Foundry, covering ingestion, transformation, ontology modeling, and application‑level actions. Designed an end‑to‑end flow that demonstrates how raw data becomes operational, governed, and actionable within the Foundry ecosystem."
+          features={`- Data ingestion using Foundry's data connectors and pipelines
+- Data transformation and modeling using Code Repos and Ontology design
+- Operational workflow creation with Actions to automate data-driven processes
+- End‑to‑end demonstration of Foundry's capabilities from raw data to actionable insights`}
+          skills="Palantir Foundry (Ontology, Actions, Pipelines, Code Repos), Data modeling and entity‑relationship design, "
+        />
+        
+        <ProjectCard
           title="Unix Task Manager (C) -- Process & Signal Management"
           description={`Unix Task Manager implemented in C, designed to simulate core shell functionality and manage multiple concurrent processes.
 
@@ -66,16 +76,6 @@ Built a full-featured task management system supporting foreground/background ex
 - Delete registrations with confirmation and success/failure feedback
 - Robust CLI with input validation and clean, readable output formatting`}
           skills="Java, JDBC, Oracle SQL, Command-Line Interface, Database Management, Data Validation"
-        />
-
-        <ProjectCard
-          title="Palantir Foundry End‑to‑End Data Workflow (Speed Run)"
-          description="Built a complete data pipeline and operational workflow inside Palantir Foundry, covering ingestion, transformation, ontology modeling, and application‑level actions. Designed an end‑to‑end flow that demonstrates how raw data becomes operational, governed, and actionable within the Foundry ecosystem."
-          features={`- Data ingestion using Foundry's data connectors and pipelines
-- Data transformation and modeling using Code Repos and Ontology design
-- Operational workflow creation with Actions to automate data-driven processes
-- End‑to‑end demonstration of Foundry's capabilities from raw data to actionable insights`}
-          skills="Palantir Foundry (Ontology, Actions, Pipelines, Code Repos), Data modeling and entity‑relationship design, "
         />
 
       </div>
