@@ -7,17 +7,17 @@ export default function HomePage() {
         <p className="text-xl mb-6">
           CS @ George Mason University | Software Developer | CompTIA Security+ | Palantir Foundry & AIP Builder
         </p>
-        <div className="flex justify-center gap-4">
-          <a href="/projects" className="bg-blue-600 text-white px-6 py-3 rounded shadow hover:bg-blue-700 transition">
+        {/* <div className="flex justify-center gap-4"> */}
+          {/* <a href="/projects" className="bg-blue-600 text-white px-6 py-3 rounded shadow hover:bg-blue-700 transition">
             View Projects
-          </a>
-          <a href="/about" className="bg-blue-600 text-white  px-6 py-3 rounded shadow hover:bg-blue-700 transition">
+          </a> */}
+          {/* <a href="/about" className="bg-blue-600 text-white  px-6 py-3 rounded shadow hover:bg-blue-700 transition">
             About Me
-          </a>
+          </a> */}
           {/* <a href="/contact" className="bg-blue-600 text-white px-6 py-3 rounded shadow hover:bg-blue-700 transition">
             Contact Me
           </a> */}
-        </div>
+        {/* </div> */}
       </section>
 
       {/* Contact Section */}
