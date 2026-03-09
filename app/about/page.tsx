@@ -14,11 +14,32 @@ export default function AboutPage() {
                 />
             </div>
             <a
-                href="/website-files/resume.pdf"
+                href="/website-files/Resume (Spring 2026) -Sean Conley .pdf"
                 target="_blank"
                 className="border px-4 py-2 rounded"
                 >
-                Download Resume
+                Download My Latest Resume
+            </a>
+            <a
+                href="/website-files/Foundry and AIP Builder Foundations Quiz.pdf"
+                target="_blank"
+                className="border px-4 py-2 rounded"
+                >
+                Download Foundry and AIP Builder Foundations Certificate
+            </a>
+            <a
+                href="/website-files/Introduction to Foundry and AIP.pdf"
+                target="_blank"
+                className="border px-4 py-2 rounded"
+                >
+                Download Introduction to Foundry and AIP certificate
+            </a>
+            <a
+                href="/website-files/CompTIA Security+ ce certificate.pdf"
+                target="_blank"
+                className="border px-4 py-2 rounded"
+                >
+                Download CompTIA Security+ ce certificate
             </a>
         </div>
     );
