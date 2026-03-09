@@ -3,7 +3,6 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
 import Navigationbar from "@/components/Navigationbar";
-import { FaLinkedin } from "react-icons/fa";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -36,17 +35,6 @@ export default function RootLayout({
         {/* Footer */}
         <footer className="border-t bg-gray-50 mt-10 py-6 text-center text-sm text-gray-600">
           <p>© {new Date().getFullYear()} Sean Conley</p>
-
-          <div className="flex justify-center gap-4 mt-3">
-            <a
-              href="https://www.linkedin.com/in/sean-conley"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-2xl hover:text-blue-600 transition"
-            >
-              <FaLinkedin />
-            </a>
-          </div>
         </footer>
       </body>
     </html>
