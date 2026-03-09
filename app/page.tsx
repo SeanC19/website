@@ -1,5 +1,6 @@
 import About from '@/components/About';
-import { FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaGitlab } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
 
 export default function HomePage() {
   return (
@@ -89,9 +90,30 @@ export default function HomePage() {
               <FaLinkedin />
             </a>
           </div>
-          <a href="https://github.com/SeanC19" target="_blank" className="text-blue-600 underline">GitHub</a>
-          <a href="https://gitlab.orc.gmu.edu/sconley5" target="_blank" className="text-blue-600 underline">GitLab</a>
-          <a href="https://leetcode.com/u/SliverSlick/" target="_blank" className="text-blue-600 underline">LeetCode</a>
+          <a
+      href="https://github.com/SeanC19"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="hover:text-gray-800 transition"
+    >
+      <FaGithub />
+    </a>
+          <a
+      href="https://gitlab.com/yourusername"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="hover:text-orange-600 transition"
+    >
+      <FaGitlab />
+    </a>
+          <a
+      href="https://leetcode.com/yourusername"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="hover:text-yellow-500 transition"
+    >
+      <SiLeetcode />
+    </a>
         </div>
       </section>
     </div>
