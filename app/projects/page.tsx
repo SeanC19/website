@@ -3,7 +3,7 @@ import ProjectCard from "@/components/ProjectCard";
 export default function ProjectsPage() {
   return (
     <div className="p-10">
-      <h1 className="text-4xl font-bold">Projects</h1>
+      <h1 className="text-4xl font-bold">My Projects</h1>
       <div className="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
         <ProjectCard
@@ -18,17 +18,6 @@ Built as a team-based academic project with an emphasis on backend logic, system
 - UML class and sequence diagrams guiding system architecture
 - Agile development process with rotating Scrum Masters per sprint`}
           skills="Java, MySQL, Git, Agile Methodologies, UML Modeling"
-        />
-
-        <ProjectCard
-          title="Binary Bomb Reverse Engineering Project"
-          description={`Defused a multi-phase compiled binary executable by analyzing control flow, stack usage, and register state at the assembly level. Used GDB and objdump to reverse engineer phase logic without access to source code, carefully avoiding runtime failures.`}
-          features={`- Multi-phase binary analysis with failure triggered execution paths
-- Low-level debugging using GDB breakpoints and step-through execution
-- x86-64 assembly inspection to infer program logic
-- Stack frame and calling convention analysis
-- Defensive debugging to prevent unintended program termination`}
-          skills="C, x86 Assembly, GDB, objdump, Unix, Reverse Engineering"
         />
 
         <ProjectCard
@@ -57,15 +46,26 @@ Built a full-featured task management system supporting foreground/background ex
         />
 
         <ProjectCard
-          title="Project 5"
-          description="This is the third project"
-          skills="N/A"
+          title="Binary Bomb Reverse Engineering Project"
+          description={`Defused a multi-phase compiled binary executable by analyzing control flow, stack usage, and register state at the assembly level. Used GDB and objdump to reverse engineer phase logic without access to source code, carefully avoiding runtime failures.`}
+          features={`- Multi-phase binary analysis with failure triggered execution paths
+- Low-level debugging using GDB breakpoints and step-through execution
+- x86-64 assembly inspection to infer program logic
+- Stack frame and calling convention analysis
+- Defensive debugging to prevent unintended program termination`}
+          skills="C, x86 Assembly, GDB, objdump, Unix, Reverse Engineering"
         />
 
         <ProjectCard
-          title="Project 6"
-          description="This is the third project"
-          skills="N/A"
+          title=""
+          description=""
+          skills=""
+        />
+
+        <ProjectCard
+          title=""
+          description=""
+          skills=""
         />
 
       </div>
