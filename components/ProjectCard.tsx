@@ -15,6 +15,9 @@ export default function ProjectCard({
   link,
   screenshot,
 }: ProjectCardProps) {
+    const featuresList = features.split("\n").map((feature, index) => (
+        <li key={index}>{feature.replace(/^- /, "")}</li>
+    ));
   return (
     <div className="border rounded-lg p-6 shadow hover:shadow-lg transition duration-200">
       <h2 className="text-xl font-bold mb-2">{title}</h2>
