@@ -14,16 +14,16 @@ export default function HomePage() {
           <a href="/about" className="bg-blue-600 text-white  px-6 py-3 rounded shadow hover:bg-blue-700 transition">
             About Me
           </a>
-          <a href="/contact" className="bg-blue-600 text-white px-6 py-3 rounded shadow hover:bg-blue-700 transition">
+          {/* <a href="/contact" className="bg-blue-600 text-white px-6 py-3 rounded shadow hover:bg-blue-700 transition">
             Contact Me
-          </a>
+          </a> */}
         </div>
       </section>
 
       {/* Contact Section */}
        <section className="text-center">
         <h2 className="text-3xl font-bold mb-4">Get in Touch</h2>
-        <p>Email: sean@sconley5@gmu.edu</p>
+        <p>Email: sconley5@gmu.edu</p>
         <p>Location: Fairfax, VA, USA</p>
         <div className="flex justify-center gap-4 mt-4">
           <a href="https://github.com/SeanC19" target="_blank" className="text-blue-600 underline">GitHub</a>
