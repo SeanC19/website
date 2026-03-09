@@ -79,8 +79,7 @@ export default function HomePage() {
         <h2 className="text-3xl font-bold mb-4">Get in Touch</h2>
         <p>Email: sconley5@gmu.edu</p>
         <p>Location: Fairfax, VA, USA</p>
-        <div className="flex justify-center gap-4 mt-4">
-          <div className="flex justify-center gap-4 mt-3">
+        <div className="flex justify-center gap-8 mt-4 text-5xl">
             <a
       href="https://linkedin.com/in/yourprofile"
       target="_blank"
@@ -113,7 +112,6 @@ export default function HomePage() {
     >
       <SiLeetcode />
     </a>
-          </div>
         </div>
       </section>
     </div>
