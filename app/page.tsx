@@ -7,7 +7,7 @@ export default function HomePage() {
       <section className="text-center">
         <h1 className="text-5xl font-bold mb-4">Sean Conley</h1>
         <p className="text-xl">
-          CS @ George Mason University | Software Developer | CompTIA Security+ | Palantir Foundry & AIP Builder
+          Junior CS @ George Mason University | Software Developer | CompTIA Security+ | Palantir Foundry & AIP Builder
         </p>
         {/* <div className="flex justify-center gap-4"> */}
           {/* <a href="/projects" className="bg-blue-600 text-white px-6 py-3 rounded shadow hover:bg-blue-700 transition">
