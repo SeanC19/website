@@ -76,8 +76,7 @@ export default function HomePage() {
 
       {/* Contact Section */}
        <section className="text-center">
-        <h2 className="text-3xl font-bold mb-4">Get in Touch</h2>
-        <p>Email: sconley5@gmu.edu</p>
+        <h2 className="text-3xl font-bold mb-4">Connect With Me</h2>
         <p>Location: Fairfax, VA, USA</p>
         <div className="flex justify-center gap-8 mt-4 text-5xl">
           <a
