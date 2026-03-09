@@ -36,7 +36,7 @@ export default function ProjectCard({
 
   return (
     <div className="border rounded-lg p-6 shadow hover:shadow-lg transition duration-200">
-      <h2 className="text-xl font-bold mb-2">{title}</h2>
+      <h2 className="text-xl font-bold mb-2 text-center">{title}</h2>
 
       {screenshot && (
         <img src={screenshot} alt={`${title} screenshot`} className="mb-4 rounded" />
