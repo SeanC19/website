@@ -1,18 +1,21 @@
-import About from "@/components/About"; 
-
-export default function ContactPage() { 
-    return (
-        <div className="p-10">
-            <h1 className="text-4xl font-bold">Contact</h1>
-            <div className="mt-8">
-                <About 
-                    title="Contact Me" 
-                    description="Feel free to reach out to me!"
-                    technologies="N/A"
-                    link="N/A"
-                    screenshot="N/A"
-                />
-            </div>
-        </div>
-    );
-} 
+export default function ContactPage() {
+  return (
+    <div className="p-10 max-w-md">
+      <h1 className="text-4xl font-bold mb-6">Contact</h1>
+      <ul className="space-y-3 text-lg">
+        <li>
+          <span className="font-semibold">Name:</span> Sean Conley
+        </li>
+        <li>
+          <span className="font-semibold">Location:</span> Fairfax, VA, USA
+        </li>
+        <li>
+          <span className="font-semibold">Email:</span>{" "}
+          <a href="mailto:seanconley@example.com" className="text-blue-600 underline">
+            seanconley@example.com
+          </a>
+        </li>
+      </ul>
+    </div>
+  );
+}
