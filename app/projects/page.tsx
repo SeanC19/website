@@ -7,7 +7,7 @@ export default function ProjectsPage() {
             <div className="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <ProjectCard 
                     title="Form Processing System" 
-                    description="Description: Developed a role-based, multi-stage form processing system to manage immigration health forms, supporting structured workflows for data entry, review, and final approval. The system enforces validation rules and workflow state transitions to ensure data integrity and process correctness throughout each stage.
+                    description="Description: Developed a role-based, multi-stage form processing system to manage health forms, supporting structured workflows for data entry, review, and final approval. The system enforces validation rules and workflow state transitions to ensure data integrity and process correctness throughout each stage.
 
 Built as a team-based academic project with an emphasis on backend logic, system design, and database persistence.
 "
