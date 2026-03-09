@@ -81,7 +81,7 @@ export default function HomePage() {
         <p>Location: Fairfax, VA, USA</p>
         <div className="flex justify-center gap-8 mt-4 text-5xl">
             <a
-      href="https://linkedin.com/in/yourprofile"
+      href="hhttps://www.linkedin.com/in/sean-conley-235558250/"
       target="_blank"
       rel="noopener noreferrer"
       className="hover:text-blue-600 transition"
@@ -92,12 +92,12 @@ export default function HomePage() {
       href="https://github.com/SeanC19"
       target="_blank"
       rel="noopener noreferrer"
-      className="hover:text-gray-800 transition"
+      className="hover:text-purple-600 transition"
     >
       <FaGithub />
     </a>
           <a
-      href="https://gitlab.com/yourusername"
+      href="https://gitlab.orc.gmu.edu/sconley5"
       target="_blank"
       rel="noopener noreferrer"
       className="hover:text-orange-600 transition"
@@ -105,7 +105,7 @@ export default function HomePage() {
       <FaGitlab />
     </a>
           <a
-      href="https://leetcode.com/yourusername"
+      href="https://leetcode.com/u/SliverSlick/"
       target="_blank"
       rel="noopener noreferrer"
       className="hover:text-yellow-500 transition"
