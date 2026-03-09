@@ -32,14 +32,14 @@ export default function AboutPage() {
                 target="_blank"
                 className="border px-4 py-2 rounded"
                 >
-                Download Introduction to Foundry and AIP certificate
+                Download Introduction to Foundry and AIP Certificate
             </a>
             <a
                 href="/website-files/CompTIA Security+ ce certificate.pdf"
                 target="_blank"
                 className="border px-4 py-2 rounded"
                 >
-                Download CompTIA Security+ ce certificate
+                Download CompTIA Security+ Certificate
             </a>
         </div>
     );
