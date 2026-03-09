@@ -11,8 +11,7 @@ export default function ProjectsPage() {
 
 Built as a team-based academic project with an emphasis on backend logic, system design, and database persistence.
 "
-                    features="Features: 
-- Role-based workflows for applicants, reviewers, and approvers
+                    features="- Role-based workflows for applicants, reviewers, and approvers
 - Multi-stage form lifecycle with enforced workflow state transitions
 - Review-stage logic with robust data validation
 - Persistent storage using a MySQL relational database
