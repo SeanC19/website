@@ -47,7 +47,7 @@ export default function HomePage() {
         <a
           href="/website-files/Foundry and AIP Builder Foundations Quiz.pdf"
           target="_blank"
-          className="border px-4 py-2 rounded hover:bg-gray-100"
+          className="border px-4 py-2 rounded hover:bg-gray-100 w-72 text-center"
         >
           Foundry & AIP Builder Foundations Certificate
         </a>
@@ -55,7 +55,7 @@ export default function HomePage() {
         <a
           href="/website-files/Introduction to Foundry and AIP.pdf"
           target="_blank"
-          className="border px-4 py-2 rounded hover:bg-gray-100"
+          className="border px-4 py-2 rounded hover:bg-gray-100 w-72 text-center"
         >
           Introduction to Foundry & AIP Certificate
         </a>
@@ -63,7 +63,7 @@ export default function HomePage() {
         <a
           href="/website-files/CompTIA_Security_Plus_certificate.pdf"
           target="_blank"
-          className="border px-4 py-2 rounded hover:bg-gray-100"
+          className="border px-4 py-2 rounded hover:bg-gray-100 w-72 text-center"
         >
           CompTIA Security+ Certificate
         </a>
