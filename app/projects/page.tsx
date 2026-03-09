@@ -17,7 +17,7 @@ Built as a team-based academic project with an emphasis on backend logic, system
 - Persistent storage using a MySQL relational database
 - UML class and sequence diagrams guiding system architecture
 - Agile development process with rotating Scrum Masters per sprint`}
-          skills="Java, MySQL, Git, Agile Methodologies, UML Modeling"
+          skills="Java, JDBC, MySQL, Git, Agile Methodologies, UML Modeling"
         />
 
         <ProjectCard
@@ -69,9 +69,13 @@ Built a full-featured task management system supporting foreground/background ex
         />
 
         <ProjectCard
-          title=""
-          description=""
-          skills=""
+          title="Palantir Foundry End‑to‑End Data Workflow (Speed Run)"
+          description="Built a complete data pipeline and operational workflow inside Palantir Foundry, covering ingestion, transformation, ontology modeling, and application‑level actions. Designed an end‑to‑end flow that demonstrates how raw data becomes operational, governed, and actionable within the Foundry ecosystem."
+          features={`- Data ingestion using Foundry's data connectors and pipelines
+- Data transformation and modeling using Code Repos and Ontology design
+- Operational workflow creation with Actions to automate data-driven processes
+- End‑to‑end demonstration of Foundry's capabilities from raw data to actionable insights`}
+          skills="Palantir Foundry (Ontology, Actions, Pipelines, Code Repos), Data modeling and entity‑relationship design, "
         />
 
       </div>
