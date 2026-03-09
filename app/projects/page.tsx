@@ -29,7 +29,7 @@ Built as a team-based academic project with an emphasis on backend logic, system
 - End‑to‑end demonstration of Foundry's capabilities from raw data to actionable insights`}
           skills="Palantir Foundry (Ontology, Actions, Pipelines, Code Repos), Data modeling and entity‑relationship design, "
         />
-        
+
         <ProjectCard
           title="Unix Task Manager (C) -- Process & Signal Management"
           description={`Unix Task Manager implemented in C, designed to simulate core shell functionality and manage multiple concurrent processes.
@@ -56,17 +56,6 @@ Built a full-featured task management system supporting foreground/background ex
         />
 
         <ProjectCard
-          title="Binary Bomb Reverse Engineering Project"
-          description={`Defused a multi-phase compiled binary executable by analyzing control flow, stack usage, and register state at the assembly level. Used GDB and objdump to reverse engineer phase logic without access to source code, carefully avoiding runtime failures.`}
-          features={`- Multi-phase binary analysis with failure triggered execution paths
-- Low-level debugging using GDB breakpoints and step-through execution
-- x86-64 assembly inspection to infer program logic
-- Stack frame and calling convention analysis
-- Defensive debugging to prevent unintended program termination`}
-          skills="C, x86 Assembly, GDB, objdump, Unix, Reverse Engineering"
-        />
-
-        <ProjectCard
           title="Campus Workshop Registration Management System"
           description="Built a command line system using Java JDBC and Oracle to manage campus workshops and student registrations. The application initializes its database from an external SQL script, then provides a full menu‑driven interface for searching workshops, viewing tables, and managing registrations with real‑time validation and capacity checks."
           features={`Oracle database connection and automated schema setup via SQL script execution
@@ -76,6 +65,17 @@ Built a full-featured task management system supporting foreground/background ex
 - Delete registrations with confirmation and success/failure feedback
 - Robust CLI with input validation and clean, readable output formatting`}
           skills="Java, JDBC, Oracle SQL, Command-Line Interface, Database Management, Data Validation"
+        />
+
+        <ProjectCard
+          title="Binary Bomb Reverse Engineering Project"
+          description={`Defused a multi-phase compiled binary executable by analyzing control flow, stack usage, and register state at the assembly level. Used GDB and objdump to reverse engineer phase logic without access to source code, carefully avoiding runtime failures.`}
+          features={`- Multi-phase binary analysis with failure triggered execution paths
+- Low-level debugging using GDB breakpoints and step-through execution
+- x86-64 assembly inspection to infer program logic
+- Stack frame and calling convention analysis
+- Defensive debugging to prevent unintended program termination`}
+          skills="C, x86 Assembly, GDB, objdump, Unix, Reverse Engineering"
         />
 
       </div>
