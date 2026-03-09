@@ -43,7 +43,7 @@ export default function HomePage() {
   </div>
 
       {/* Certificate Buttons */}
-      <div className="border px-4 py-2 rounded hover:bg-gray-100 w-72 text-center">
+      <div className="flex justify-center gap-4">
         <a
           href="/website-files/Foundry and AIP Builder Foundations Quiz.pdf"
           target="_blank"
