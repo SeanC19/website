@@ -38,7 +38,6 @@ export default function AboutPage() {
                 >
                 Download CompTIA Security+ Certificate
             </a>
-            <h2 className="text-4xl font-bold">Links</h2>
         </div>
     );
 } 
