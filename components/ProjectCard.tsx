@@ -59,19 +59,9 @@ export default function ProjectCard({
         </>
       )}
 
-      {/* Render skills as tags */}
-      {skillsList.length > 0 && (
-        <div className="flex flex-wrap gap-2 mb-2">
-          {skillsList.map((skill, idx) => (
-            <span
-              key={idx}
-              className="bg-gray-200 text-gray-800 text-sm px-2 py-1 rounded"
-            >
-              {skill}
-            </span>
-          ))}
-        </div>
-      )}
+      <h3 className="font-semibold mb-1">Skills:</h3>
+      <p className="mb-4">{skills}</p>
+
 
       {/* Optional link */}
       {link && link !== "N/A" && (
