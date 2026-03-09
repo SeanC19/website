@@ -21,27 +21,17 @@ Built as a team-based academic project with an emphasis on backend logic, system
                 <ProjectCard 
                     title="Binary Bomb Reverse Engineering Project" 
                     description="Defused a multi-phase compiled binary executable by analyzing control flow, stack usage, and register state at the assembly level. Used GDB and objdump to reverse engineer phase logic without access to source code, carefully avoiding runtime failures."
-                    features="- Multi-phase binary analysis with failure-triggered execution paths
-- Low-level debugging using GDB breakpoints and step-through execution
-- x86-64 assembly inspection to infer program logic
-- Stack frame and calling convention analysis
-- Defensive debugging to prevent unintended program termination"
-                    skills="N/A"
+                    features={'- Multi-phase binary analysis with failure-triggered execution paths - Low-level debugging using GDB breakpoints and step-through execution - x86-64 assembly inspection to infer program logic - Stack frame and calling convention analysis - Defensive debugging to prevent unintended program termination'}
+                    skills="C, x86 Assembly, GDB, objdump, Unix, Reverse Engineering"
                     link=""
-                    screenshot="C, x86 Assembly, GDB, objdump, Unix"
+                    screenshot=""
                 />
                 <ProjectCard 
                     title="Unix Task Manager (C) -- Process & Signal Management" 
                     description="Unix Task Manager implemented in C, designed to simulate core shell functionality and manage multiple concurrent processes.
 
 Built a full-featured task management system supporting foreground/background execution, process control, and inter-process communication. The program maintains an internal task list with lifecycle tracking and responds to Unix signals for real-time process management."
-                    features="- Dynamic task creation and deletion using a custom doubly linked list
-- Foreground and background execution using fork, exec, and waitpid
-- Full signal handling (SIGINT, SIGTSTP, SIGCHLD, SIGCONT) for suspend, resume, and termination
-- I/O redirection (<, >) using dup2 and Unix file descriptors
-- Pipelining between tasks using Unix pipes
-- Robust state tracking (Ready, Running FG/BG, Suspended, Finished, Killed)
-- Event-based logging for task lifecycle changes"
+                    features={'- Dynamic task creation and deletion using a custom doubly linked list - Foreground and background execution using fork, exec, and waitpid - Full signal handling (SIGINT, SIGTSTP, SIGCHLD, SIGCONT) for suspend, resume, and termination - I/O redirection (<, >) using dup2 and Unix file descriptors - Pipelining between tasks using Unix pipes - Robust state tracking (Ready, Running FG/BG, Suspended, Finished, Killed) - Event-based logging for task lifecycle changes'}
                     skills="C, GDB, Valgrind, Unix, Process Management, Signal Handling, Inter-Process Communication"
                     link="N/A"
                     screenshot="N/A"
@@ -49,7 +39,7 @@ Built a full-featured task management system supporting foreground/background ex
                 <ProjectCard 
                     title="Yahtzee Multiplayer Android Mobile Game " 
                     description="Developed a real-time multiplayer game supporting multiple devices using Firebase Realtime Database for backend synchronization. Implemented join-code sessions, real-time game state updates, and turn-based logic enforcement to ensure a consistent gaming experience across all connected players. Designed an intuitive Android UI for gameplay and results display, providing a seamless user experience for players engaging in competitive Yahtzee matches."
-                    features="- join-code multiplayer sessions - real-time game state synchronization - turn-based logic enforcement - Android UI design for gameplay and results display"
+                    features={'- join-code multiplayer sessions - real-time game state synchronization - turn-based logic enforcement - Android UI design for gameplay and results display'}
                     skills="Java, XML Layouts, Firebase Realtime Database, Android Studio, Mobile App Development"
                     link="N/A"
                     screenshot="N/A"
