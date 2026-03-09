@@ -12,7 +12,7 @@ export default function ContactPage() {
         <li>
           <span className="font-semibold">Email:</span>{" "}
           <a href="mailto:seanconley@example.com" className="text-blue-600 underline">
-            seanconley@example.com
+            sconley5@gmu.edu
           </a>
         </li>
       </ul>
