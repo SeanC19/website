@@ -5,9 +5,9 @@ interface AboutProps {
 
 export default function ProjectCard({ title, description }: AboutProps) {
   return (
-    <div className="border rounded-lg p-6 shadow">
-      <h2 className="text-centertext-xl font-bold">{title}</h2>
-      <p className="mt-2">{description}</p>
+    <div className="bg-white border rounded-lg p-6 shadow-md max-w-4xl mx-auto">
+      <h2 className="text-xl font-bold mb-4">{title}</h2>
+      <p className="text-gray-700 leading-relaxed">{description}</p>
     </div>
   );
 }
