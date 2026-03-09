@@ -4,9 +4,9 @@ export default function HomePage() {
   return (
     <div className="p-10 max-w-7xl mx-auto">
       {/* Hero Section */}
-      <section className="text-center mb-1">
+      <section className="text-center">
         <h1 className="text-5xl font-bold mb-4">Sean Conley</h1>
-        <p className="text-xl mb-1">
+        <p className="text-xl">
           CS @ George Mason University | Software Developer | CompTIA Security+ | Palantir Foundry & AIP Builder
         </p>
         {/* <div className="flex justify-center gap-4"> */}
