@@ -1,5 +1,5 @@
 import About from '@/components/About';
-import { FaGithub, FaLinkedin, FaGitlab } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaGitlab, FaEnvelope } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
 
 export default function HomePage() {
@@ -80,6 +80,12 @@ export default function HomePage() {
         <p>Email: sconley5@gmu.edu</p>
         <p>Location: Fairfax, VA, USA</p>
         <div className="flex justify-center gap-8 mt-4 text-5xl">
+          <a
+            href="mailto:sconley5@gmu.edu"
+            className="hover:text-red-500 hover:scale-110 transition transform"
+            >
+            <FaEnvelope />
+          </a>
           <a
             href="https://www.linkedin.com/in/sean-conley-235558250/"
             target="_blank"
