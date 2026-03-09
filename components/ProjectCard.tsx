@@ -1,7 +1,7 @@
 interface ProjectCardProps {
   title: string;
   description: string;
-  features: string;
+  features: string; // raw string with "- " bullets
   skills: string;
   link?: string;
   screenshot?: string;
@@ -15,9 +15,11 @@ export default function ProjectCard({
   link,
   screenshot,
 }: ProjectCardProps) {
-    const featuresList = features.split("\n").map((feature, index) => (
-        <li key={index}>{feature.replace(/^- /, "")}</li>
-    ));
+  // Split the features string by newline and remove leading '- '
+  const featuresList = features
+    .split("\n")
+    .map(f => f.replace(/^- /, "")) // removes the dash and space
+
   return (
     <div className="border rounded-lg p-6 shadow hover:shadow-lg transition duration-200">
       <h2 className="text-xl font-bold mb-2">{title}</h2>
@@ -29,7 +31,11 @@ export default function ProjectCard({
       <p className="mb-4 whitespace-pre-line">{description}</p>
 
       <h3 className="font-semibold mb-1">Features:</h3>
-      <p className="mb-4 whitespace-pre-line">{features}</p>
+      <ul className="list-disc list-inside mb-4">
+        {featuresList.map((f, idx) => (
+          <li key={idx}>{f}</li>
+        ))}
+      </ul>
 
       <h3 className="font-semibold mb-1">Skills:</h3>
       <p className="mb-2">{skills}</p>
