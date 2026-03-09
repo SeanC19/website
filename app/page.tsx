@@ -23,7 +23,6 @@ export default function HomePage() {
       </section>
 
       <div className="p-10">
-        <h1 className="mt-6 text-4xl font-bold">About</h1>
         <div className="mt-8">
             <About
                 title="About Me" 
