@@ -33,7 +33,7 @@ export default function RootLayout({
         {children}
 
         {/* Footer */}
-        <footer className="border-t bg-gray-50 mt-10 py-6 text-center text-sm text-gray-600">
+        <footer className="border-t bg-gray-50 mt-10 py-6 text-center text-sm text-gray-900">
           <p>© {new Date().getFullYear()} Sean Conley</p>
         </footer>
       </body>
