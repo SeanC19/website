@@ -1,5 +1,4 @@
-import Link from "next/link";
-
+import Link from "next/link"; 
 export default function Navigationbar() {
   return (
     <nav className="flex gap-6 p-6">
