@@ -37,7 +37,6 @@ export default function RootLayout({
         <footer className="border-t mt-10 py-6 text-center text-sm text-gray-900">
           <p>© {new Date().getFullYear()} Sean Conley</p>
         </footer>
-
       </body>
     </html>
   );
