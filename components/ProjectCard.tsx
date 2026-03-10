@@ -62,7 +62,6 @@ export default function ProjectCard({
       <h3 className="font-semibold mb-1">Skills:</h3>
       <p className="mb-4">{skills}</p>
 
-
       {/* Optional link */}
       {link && link !== "N/A" && (
         <a
