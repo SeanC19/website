@@ -35,7 +35,7 @@ export default function ProjectCard({
     .filter(s => s.length > 0);
 
   return (
-    <div className="border rounded-lg p-6 shadow hover:shadow-lg transition duration-200">
+    <div className="bg-white border rounded-lg p-6 shadow hover:shadow-lg transition duration-200">
       <h2 className="text-xl font-bold mb-2 text-center">{title}</h2>
 
       {screenshot && (
