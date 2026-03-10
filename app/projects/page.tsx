@@ -76,6 +76,7 @@ Built a full-featured task management system supporting foreground/background ex
 - Stack frame and calling convention analysis
 - Defensive debugging to prevent unintended program termination`}
           skills="C, x86 Assembly, GDB, objdump, Unix, Reverse Engineering"
+          link="https://github.com/SeanC19/GMU-CS367-Computer-Systems-and-Programming/tree/main/bomb290"
         />
       </div>
     </div>
