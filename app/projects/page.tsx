@@ -77,7 +77,6 @@ Built a full-featured task management system supporting foreground/background ex
 - Defensive debugging to prevent unintended program termination`}
           skills="C, x86 Assembly, GDB, objdump, Unix, Reverse Engineering"
         />
-
       </div>
     </div>
   );
