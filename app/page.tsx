@@ -59,7 +59,6 @@ export default function HomePage() {
           CompTIA Security+ Certificate
         </a>
       </div>
-
     </div>
     </div>
 
