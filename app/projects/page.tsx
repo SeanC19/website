@@ -43,6 +43,7 @@ Built a full-featured task management system supporting foreground/background ex
 - Robust state tracking (Ready, Running FG/BG, Suspended, Finished, Killed)
 - Event-based logging for task lifecycle changes`}
           skills="C, GDB, Valgrind, Unix, Process Management, Signal Handling, Inter-Process Communication"
+          link="https://github.com/SeanC19/GMU-CS367-Computer-Systems-and-Programming/tree/main/P3"
         />
 
         <ProjectCard
