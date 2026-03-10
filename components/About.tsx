@@ -2,7 +2,6 @@ interface AboutProps {
   title: string;
   description: string;
 }
-
 export default function ProjectCard({ title, description }: AboutProps) {
   return (
     <div className="bg-white border rounded-lg p-6 shadow-md max-w-5xl mx-auto">
