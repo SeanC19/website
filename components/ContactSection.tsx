@@ -7,8 +7,8 @@ export default function ContactSection() {
       <h2 className="text-3xl font-bold mb-4">Connect With Me</h2>
       <p>Location: Fairfax, VA, USA</p>
 
-      {/* <div className="flex justify-center gap-8 mt-4 text-5xl">
-        <a
+       <div className="flex justify-center gap-8 mt-4 text-5xl">
+        {/*<a
           href="mailto:sconley5@gmu.edu"
           className="hover:text-red-500 hover:scale-110 transition transform"
         >
