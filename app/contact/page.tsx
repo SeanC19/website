@@ -4,67 +4,87 @@ import { useState } from "react";
 
 export default function ContactPage() {
   const [sent, setSent] = useState(false);
+  const [loading, setLoading] = useState(false);
 
   return (
     <div className="p-10 max-w-4xl mx-auto">
       <h1 className="text-4xl font-bold mb-6 text-center">Contact Me</h1>
-        <div className="bg-white p-8 rounded-xl shadow-md">
-          <form
-            className="flex flex-col gap-4"
-            onSubmit={async (e) => {
+
+      <div className="bg-white p-8 rounded-xl shadow-md">
+        <form
+          className="flex flex-col gap-4"
+          onSubmit={async (e) => {
             e.preventDefault();
 
             const formData = new FormData(e.currentTarget);
 
             const data = {
-                name: formData.get("name"),
-                email: formData.get("email"),
-                message: formData.get("message"),
+              name: formData.get("name"),
+              email: formData.get("email"),
+              message: formData.get("message"),
             };
 
-            await fetch("/api/contact", {
-                method: "POST",
-                body: JSON.stringify(data),
-            });
+            setLoading(true);
 
-            setSent(true);
-            }}
+            try {
+              const res = await fetch(
+                "https://4r46h5qsm9.execute-api.us-east-1.amazonaws.com/contact",
+                {
+                  method: "POST",
+                  headers: {
+                    "Content-Type": "application/json",
+                  },
+                  body: JSON.stringify(data),
+                }
+              );
+
+              if (!res.ok) throw new Error("Failed");
+
+              setSent(true);
+            } catch (err) {
+              alert("Something went wrong. Please try again.");
+            }
+
+            setLoading(false);
+          }}
         >
-            <input
+          <input
             name="name"
             type="text"
             placeholder="Your Name"
             className="border p-3 rounded"
             required
-            />
+          />
 
-            <input
+          <input
             name="email"
             type="email"
             placeholder="Your Email"
             className="border p-3 rounded"
             required
-            />
+          />
 
-            <textarea
+          <textarea
             name="message"
             placeholder="Your Message"
             rows={6}
             className="border p-3 rounded"
             required
-            />
+          />
 
-            <button
+          <button
             type="submit"
-            className="bg-blue-400 text-white py-3 rounded hover:bg-blue-500 transition"
-            >
-            Send Message
-            </button>
-            {sent && (
+            disabled={loading}
+            className="bg-blue-400 text-white py-3 rounded hover:bg-blue-500 transition disabled:opacity-50"
+          >
+            {loading ? "Sending..." : "Send Message"}
+          </button>
+
+          {sent && (
             <p className="text-green-600 text-center mt-2">
-                Message sent successfully!
+              Message sent successfully!
             </p>
-            )}
+          )}
         </form>
       </div>
     </div>
