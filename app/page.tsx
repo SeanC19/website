@@ -34,6 +34,15 @@ export default function HomePage() {
 
       {/* Certificate Buttons */}
       <div className="flex justify-center gap-4">
+
+        <a
+          href="/website-files/CompTIA_Security_Plus_certificate.pdf"
+          target="_blank"
+          className="bg-blue-400 text-white px-4 py-2 rounded hover:bg-blue-500 transition w-72 text-center"
+        >
+          CompTIA Security+ Certificate
+        </a>
+        
         <a
           href="/website-files/Foundry and AIP Builder Foundations Quiz.pdf"
           target="_blank"
@@ -48,14 +57,6 @@ export default function HomePage() {
           className="bg-blue-400 text-white px-4 py-2 rounded hover:bg-blue-500 transition w-72 text-center"
         >
           Introduction to Foundry & AIP Certificate
-        </a>
-
-        <a
-          href="/website-files/CompTIA_Security_Plus_certificate.pdf"
-          target="_blank"
-          className="bg-blue-400 text-white px-4 py-2 rounded hover:bg-blue-500 transition w-72 text-center"
-        >
-          CompTIA Security+ Certificate
         </a>
       </div>
     </div>
