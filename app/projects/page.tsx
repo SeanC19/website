@@ -9,10 +9,10 @@ export default function ProjectsPage() {
         <ProjectCard
           title="This Website"
           description={`Designed and deployed a full-stack personal portfolio website to showcase projects, certifications, and technical experience. The application emphasizes clean UI design, responsive layout, and real-world functionality through a serverless contact system. Built with a modular, component-based architecture to support scalability and maintainability, while integrating cloud services to enable dynamic user interaction. `}
-          features={`- Serverless Contact Form: Processes and delivers messages with average API responses under 1.1 seconds using AWS Services
-- Email Integration: Reliable message delivery via cloud-based email service
-- Persistent Navigation & Footer: Shared layout across all pages for a seamless user experience 
-- Reusable Components: Built 4 reusable React components for scalable UI development`}
+          features={`- Serverless Contact Form that processes and delivers messages with average API responses under 1.1 seconds using AWS Services
+- Email Integration that provides reliable message delivery via cloud-based email service
+- Persistent Navigation & Footer to allow for a shared layout across all pages for a seamless user experience 
+- Built 4 reusable React components for scalable UI development`}
           skills="Next.js, Tailwind CSS, TypeScript, AWS Services (Lambda, SES, API Gateway), Git, Component-Based Architecture"
           link="https://github.com/SeanC19/website.git"
         />
