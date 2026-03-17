@@ -69,7 +69,7 @@ export default function ProjectCard({
           target="_blank"
           className="text-blue-600 underline"
         >
-          GitHub/GitLab Repository
+          View Repository
         </a>
       )}
     </div>
