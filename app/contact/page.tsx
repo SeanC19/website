@@ -10,7 +10,7 @@ export default function ContactPage() {
     <div className="p-10 max-w-4xl mx-auto">
       <h1 className="text-4xl font-bold mb-6 text-center">Contact Me</h1>
 
-      <div className="bg-white p-8 rounded-xl shadow-md">
+      <div className="bg-white border rounded-lg p-6 shadow hover:shadow-lg transition duration-200">
         <form
           className="flex flex-col gap-4"
           onSubmit={async (e) => {
