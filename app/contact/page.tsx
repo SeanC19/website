@@ -30,6 +30,7 @@ export default function ContactPage() {
           setSent(true);
         }}
       >
+        <div className="bg-white p-8 rounded-xl shadow-md">
         <input
           name="name"
           type="text"
@@ -60,7 +61,7 @@ export default function ContactPage() {
         >
           Send Message
         </button>
-
+        </div>
         {sent && (
           <p className="text-green-600 text-center mt-2">
             Message sent successfully!
