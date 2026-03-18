@@ -28,7 +28,7 @@ export default function HomePage() {
   {/* Resume Button */}
   <div className="flex justify-center mb-6">
     <a
-      href="/website-files/Resume (Spring 2026) -Sean Conley .pdf"
+      href="/website-files/Resume (Spring 2026) -Sean Conley.pdf"
       target="_blank"
       className="bg-blue-400 text-white px-4 py-2 rounded hover:bg-blue-500 transition w-72 text-center"
     >
