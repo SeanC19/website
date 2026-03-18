@@ -9,8 +9,7 @@ export default function ProjectsPage() {
         <ProjectCard
           title="This Website"
           description={`Designed and deployed a full-stack personal portfolio website to showcase projects, certifications, and technical experience. The application emphasizes clean UI design, responsive layout, and real-world functionality through a serverless contact system. Built with a modular, component-based architecture to support scalability and maintainability, while integrating cloud services to enable dynamic user interaction. `}
-          features={`- Built and deployed a full‑stack portfolio website with a responsive Next.js UI and serverless AWS backend
-- Implemented a CI/CD pipeline with GitHub Actions and Vercel, achieving 113 consecutive successful deployments
+          features={`- Implemented a CI/CD pipeline with GitHub Actions and Vercel, achieving 113 consecutive successful deployments
 - Developed a serverless backend using AWS Lambda and API Gateway to process contact form submissions
 - Integrated and securely configured AWS SES to enable real-time email notifications between users and the site owner
 - Delivered a site with a 100/100 Lighthouse performance score, reflecting fast load times and stable rendering
