@@ -9,11 +9,14 @@ export default function ProjectsPage() {
         <ProjectCard
           title="This Website"
           description={`Designed and deployed a full-stack personal portfolio website to showcase projects, certifications, and technical experience. The application emphasizes clean UI design, responsive layout, and real-world functionality through a serverless contact system. Built with a modular, component-based architecture to support scalability and maintainability, while integrating cloud services to enable dynamic user interaction. `}
-          features={`- Serverless Contact Form that processes and delivers messages with average API responses under 1.1 seconds using AWS Services
-- Email Integration that provides reliable message delivery via cloud-based email service
-- Persistent Navigation & Footer to allow for a shared layout across all pages for a seamless user experience 
-- Built 4 reusable React components for scalable UI development`}
-          skills="Next.js, Tailwind CSS, TypeScript, AWS Services (Lambda, SES, API Gateway), Git, Component-Based Architecture"
+          features={`- Built and deployed a full‑stack portfolio website with a responsive Next.js UI and serverless AWS backend
+- Implemented a CI/CD pipeline with GitHub Actions and Vercel, achieving 113 consecutive successful deployments
+- Developed a serverless backend using AWS Lambda and API Gateway to process contact form submissions
+- Integrated and securely configured AWS SES to enable real-time email notifications between users and the site owner
+- Delivered a site with a 100/100 Lighthouse performance score, reflecting fast load times and stable rendering
+- Designed a clean, modern UI using Tailwind CSS with a focus on readability and user experience
+- Utilized a component-based architecture to ensure modularity and maintainability of the codebase`}
+          skills="Next.js, React, Tailwind CSS, TypeScript, CI/CD Pipelines, Git, GitHub, AWS Services (Lambda, SES, API Gateway), Component-Based Architecture"
           link="https://github.com/SeanC19/website.git"
         />
 
