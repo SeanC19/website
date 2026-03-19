@@ -1,10 +1,11 @@
 "use client";
 
-import { useState } from "react";
+import { useRef, useState } from "react";
 
 export default function ContactPage() {
   const [sent, setSent] = useState(false);
   const [loading, setLoading] = useState(false);
+  const formRef = useRef<HTMLFormElement>(null);
 
   return (
     <div className="p-10 max-w-4xl mx-auto">
@@ -12,6 +13,7 @@ export default function ContactPage() {
 
       <div className="bg-white border rounded-lg p-6 shadow hover:shadow-lg transition duration-200">
         <form
+          ref={formRef}
           className="flex flex-col gap-4"
           onSubmit={async (e) => {
             e.preventDefault();
@@ -41,6 +43,7 @@ export default function ContactPage() {
               if (!res.ok) throw new Error("Failed");
 
               setSent(true);
+              formRef.current?.reset();
             } catch (err) {
               alert("Something went wrong. Please try again.");
             }
@@ -79,7 +82,6 @@ export default function ContactPage() {
           >
             {loading ? "Sending..." : "Send Message"}
           </button>
-
           {sent && (
             <p className="text-green-600 text-center mt-2">
               Message sent successfully!
