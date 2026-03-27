@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/next"
 
 import Navigationbar from "@/components/Navigationbar";
 import ContactSection from "@/components/ContactSection";
