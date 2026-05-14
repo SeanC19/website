@@ -38,6 +38,7 @@ export default function RootLayout({
 
         <ContactSection /> 
         <SpeedInsights />
+        <Analytics />
 
         {/* Footer */}
         <footer className="border-t mt-10 py-6 text-center text-sm text-gray-900">
